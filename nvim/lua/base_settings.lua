@@ -8,3 +8,8 @@ vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]])
 vim.opt.number = true
 -- For no relative line numbers in terminal
 vim.api.nvim_command('autocmd TermOpen * setlocal nonumber')
+
+-- Setting mapleader
+vim.g.mapleader = ' '
+-- Creating a shortcut for opening the terminal at the bottom (bash terminal)
+vim.api.nvim_set_keymap('n', '<leader>t', ':botright 10split term://bash<CR>', { noremap = true, silent = true })
