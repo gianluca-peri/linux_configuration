@@ -5,6 +5,7 @@ python install_dependencies.py
 ```
 
 ## Important information:
+**This is a separate config folder, so you should put the appropriate imports in your files, how to do this is specified as comments in the scripts. Have a read of them.**
 - This folder must be called 'linux_configuration', and must be placed in your home folder (so /home/username/).
 - Remember to run ':Copilot setup' to enable the extension.
 - Also remember:
