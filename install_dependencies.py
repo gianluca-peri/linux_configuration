@@ -28,7 +28,8 @@ packages_to_install = [latex_name,
                        "neovim",
                        "nodejs",
                        "tree-sitter",
-                       "git",]
+                       "git",
+                       "rclone"]
 
 for package in packages_to_install:
     os.system(f"sudo {package_manager_name} install {package}")
