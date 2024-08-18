@@ -7,7 +7,7 @@ vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]])
 -- For relative line numbers
 vim.opt.number = true
 -- For no relative line numbers in terminal
-vim.api.nvim_command('autocmd TermOpen * setlocal nonumber')
+vim.api.nvim_command('autocmd TermOpen * setlocal nonumber nospell')
 
 -- Setting mapleader
 vim.g.mapleader = ' '
